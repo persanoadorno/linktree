@@ -1,0 +1,208 @@
+.w-dyn-item.visible {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.slogan {
+    margin-top: 58px;
+    margin-bottom: 58px;
+    line-height: 2;
+    font-size: 18px;
+}
+
+
+.book-cover-image {
+    border-radius: 100%;
+}
+
+.brandingLogo {
+    display: none !important;
+}
+
+
+#mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: column;
+}
+
+#mc-embedded-subscribe {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 30px 10px 30px !important;
+    min-height: 49px !important;
+    font-size: 16px !important;
+    min-width: 50px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+#mce-EMAIL {
+    padding: 12px 30px 10px 30px !important;
+    font-size: 17px !important;
+    border-style: solid !important;
+    display: inline !important;
+    font-style: normal !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: initial !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    color: #2F2F2F !important;
+    outline-color: transparent;
+    outline-style: none;
+    background: #FFF;
+    font-weight: 400 !important;
+    border: 1px solid #DBDBDB !important;
+    line-height: 1.5em !important;
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    box-shadow: none !important;
+    height: initial !important;
+    position: initial !important;
+    overflow: initial !important;
+    margin: initial !important;
+    vertical-align: top !important;
+}
+
+.mce_inline_error {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+.book-showcase-container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fa {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+    font-weight: var(--fa-style, 900);
+}
+
+.fa,
+.fa-classic,
+.fa-sharp,
+.fas,
+.fa-solid,
+.far,
+.fa-regular,
+.fab,
+.fa-brands {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.fas,
+.fa-classic,
+.fa-solid,
+.far,
+.fa-regular {
+    font-family: 'Font Awesome 6 Free';
+}
+
+.fab,
+.fa-brands {
+    font-family: 'Font Awesome 6 Brands';
+}
+
+.fa-1x {
+    font-size: 1em;
+}
+
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+:root,
+:host {
+    --fa-style-family-brands: 'Font Awesome 6 Brands';
+    --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("webfonts/fa-brands-400.html") format("woff2"), url("webfonts/fa-brands-401.html") format("truetype");
+}
+
+.fab,
+.fa-brands {
+    font-weight: 400;
+}
+
+:root,
+:host {
+    --fa-style-family-classic: 'Font Awesome 6 Free';
+    --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free';
+}
+
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("webfonts/fa-regular-400.html") format("woff2"), url("webfonts/fa-regular-401.html") format("truetype");
+}
+
+.far,
+.fa-regular {
+    font-weight: 400;
+}
+
+
+
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+
+.fa-github:before {
+    content: "\f09b";
+}
+
+.fa-product-hunt:before {
+    content: "\f288";
+}
+
+.fa-discord:before {
+    content: "\f392";
+}
+
+i.fa-brands {
+    color: black;
+}
